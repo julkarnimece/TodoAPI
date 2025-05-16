@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <PublishAot>true</PublishAot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Json\**" />
+    <Content Remove="Json\**" />
+    <EmbeddedResource Remove="Json\**" />
+    <None Remove="Json\**" />
+  </ItemGroup>
+
+</Project>
